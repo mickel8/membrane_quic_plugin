@@ -39,6 +39,7 @@ defmodule Membrane.QUIC.Plugin do
       # {:quicer, github: "emqx/quic"},
       {:quicer, path: "../quic"},
       {:membrane_core, "~> 0.7.0"},
+      {:membrane_file_plugin, "~> 0.6.0", only: :test},
       {:ex_doc, "~> 0.24", only: :dev, runtime: false},
       {:dialyxir, "~> 1.1", only: :dev, runtime: false},
       {:credo, "~> 1.5", only: :dev, runtime: false}
